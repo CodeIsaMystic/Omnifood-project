@@ -90,7 +90,7 @@ a:link,
 a:visited {  
   text-decoration: none;
   color: #E67E22; 
-  padding-bottom: 1px;
+  //padding-bottom: 1px;
   border-bottom: 1px solid #E67E22;
   transition: all 0.2s ease-in;
 }
@@ -127,7 +127,7 @@ a:active {
 /* = Buttons  */
 .btn {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 30px 13px;
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
@@ -182,6 +182,7 @@ a:active {
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('../img/hero.jpg') center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
 }
 
@@ -288,3 +289,44 @@ a:active {
 /* ============================================ */
 /* SECTION 04 - CITIES  */
 /* ============================================ */
+.city-feature {
+  margin-bottom: 5px;
+}
+
+/* ============================================ */
+/* SECTION 05 - TESTIMONIALS  */
+/* ============================================ */
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.65)), url('../img/back-customers.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.testimonials blockquote {
+  position: relative;
+  margin-top: 40px;
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+}
+.testimonials blockquote::before {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  content: '\201C';
+  font-size: 500%;
+}
+
+.testimonials cite {
+  display: block;
+  margin-top: 25px;
+  font-size: 90%;
+}
+.testimonials cite img {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
