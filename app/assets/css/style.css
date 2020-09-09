@@ -349,7 +349,7 @@ input[type=submit]:active {   border: 1px solid #CF6D17; }
   transform: scale(1);
   transition: all 0.4s ease-in-out;
 }
-.plan-box:hover {  transform: scale(1.1); }
+.plan-box:hover {  transform: scale(1.04); }
 
 .plan-box div {  padding: 15px;  border-bottom: 1px solid #e8e8e8; }
 
