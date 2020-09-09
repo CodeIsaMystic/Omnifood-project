@@ -12,6 +12,13 @@ html {
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
+
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
 ul {  list-style: none; }
 
 a {  text-decoration: none; }
@@ -134,7 +141,6 @@ h2::after {
 
 
 /* = Hero  */
-
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url('../img/hero.jpg') center center no-repeat;
   background-size: cover;
@@ -166,12 +172,10 @@ h2::after {
 /* ============================================ */
 /* SECTION 02 - MEALS  */
 /* ============================================ */
-.meals {
-  padding: 0;
-}
-.meals__showcase {
-  width: 100%;
-}
+.meals {  padding: 0; }
+
+.meals__showcase {  width: 100%; }
+
 .meals__showcase li {
   display: block;
   float: left;
@@ -194,3 +198,53 @@ h2::after {
   opacity: 1;
   transform: scale(1.03);
 }
+
+/* ============================================ */
+/* SECTION 03 - HOW IT WORKS  */
+/* ============================================ */
+.steps {
+  background-color: #f4f4f4;
+}
+.steps__col:first-child {
+  text-align: center;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+.steps__col:last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+}
+.steps__col:last-child a img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* = App Screen  */
+
+.app-screen {  width: 40%; }
+
+/* = HowItWorks Steps  */
+.hiw-step {  margin-bottom: 50px; }
+
+.hiw-step:last-of-type {  
+  margin-bottom: 80px; 
+}
+
+.hiw-step div{
+  display: inline-block;
+  float: left;
+  padding: 5px;
+  margin-right: 25px;
+  height: 50px;
+  width: 50px;
+  color: #E67E22;
+  border: 2px solid #e67d22d4;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 150%;
+}
+
+/* ============================================ */
+/* SECTION 04 - CITIES  */
+/* ============================================ */
