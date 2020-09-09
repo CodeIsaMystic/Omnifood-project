@@ -22,7 +22,7 @@ a {  text-decoration: none; }
 /* ============================================ */
 .row {  max-width: 1140px;  margin: 0 auto; }
 
-section {  padding: 80px 0;}
+section {  padding: 80px 0; }
 
 .box {  padding: 1%; }
 
@@ -154,12 +154,43 @@ h2::after {
 /* ============================================ */
 /* SECTION 01 - FEATURES  */
 /* ============================================ */
-.section-features__text {
+.features__text {
   width: 70%;
   margin-left: 15%;
+  margin-bottom: 25px;
   text-align: center;
 }
 /* = Boxes  */
 .box h3, .box p {  text-align: center; }
 
-
+/* ============================================ */
+/* SECTION 02 - MEALS  */
+/* ============================================ */
+.meals {
+  padding: 0;
+}
+.meals__showcase {
+  width: 100%;
+}
+.meals__showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+.meals__showcase__photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+.meals__showcase__photo img{
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  transform: scale(1.15);
+  transition: all 0.4s ease-in-out;
+}
+.meals__showcase__photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
