@@ -371,11 +371,9 @@ input[type=submit]:active {   border: 1px solid #CF6D17; }
   font-size: 300%;
   font-weight: 100;
 }
-.plan-box__price span{
+.plan-box__price span{  font-size: 30%;  font-weight: 300; }
   /*  font-size parent is __price not basic settings  */
-  font-size: 30%;
-  font-weight: 300;
-}
+
 .plan-box__price-meal {  font-size: 80%; }
 
 .plan-box ul li {  padding: 5px 0; }
@@ -394,6 +392,7 @@ select, textarea {
   border-radius: 3px;
   border: 1px solid #ccc;
 }
+
 textarea { height: 140px; }
 
 input[type=checkbox] {  margin: 10px 5px 10px 0; }
@@ -401,9 +400,8 @@ input[type=checkbox] {  margin: 10px 5px 10px 0; }
 /* ============================================ */
 /* LAST SECTION  -   FOOTER  */
 /* ============================================ */
-footer {
-  background-color: #333;
-}
+footer {  background-color: #333; }
+
 footer p {
   color: #888;
   text-align: center;
@@ -413,23 +411,17 @@ footer p {
 }
 
 /* = Footer navigation  */
-.footer-nav {
-  float: left;
-  font-size: 80%;
-}
-.social-links {
-  float: right;
-}
+.footer-nav {  float: left;  font-size: 80%; }
+
+.social-links {  float: right; }
+
 .footer-nav li,
 .social-links li {
   display: inline-block;
   margin-right: 20px;
   margin-top: 10px;
 }
-.footer-nav li:last-child,
-.social-links li:last-child {
-  margin-right: 0;
-}
+.footer-nav li:last-child, .social-links li:last-child {  margin-right: 0; }
 
 .footer-nav li a:link, .footer-nav li a:visited,
 .social-links li a:link, .social-links li a:visited {
@@ -438,20 +430,13 @@ footer p {
   color: #888;
   transition: all 0.2s ease-in;
 }
-.footer-nav li a:hover, .footer-nav li a:active {
-  color: #ddd;
-}
 
-.social-links li a:link i, .social-links li a:visited i {
-  font-size: 110%;
-}
+.footer-nav li a:hover, .footer-nav li a:active {  color: #ddd; }
 
-.ion-social-facebook ,
-.ion-social-twitter,
-.ion-social-googleplus,
-.ion-social-instagram {
-  transition: color 0.2s ease-in;
-}
+.social-links li a:link i, .social-links li a:visited i {  font-size: 110%; }
+
+.ion-social-facebook , .ion-social-twitter,
+.ion-social-googleplus, .ion-social-instagram {  transition: color 0.2s ease-in; }
 
 .ion-social-facebook:hover {  color: #3b5998; }
 .ion-social-twitter:hover {  color: #00aced; }
