@@ -21,7 +21,6 @@ html {
 
 ul {  list-style: none; }
 
-a {  text-decoration: none; }
 
 
 /* ============================================ */
@@ -31,8 +30,17 @@ a {  text-decoration: none; }
 
 section {  padding: 80px 0; }
 
+
+/* = Boxes  */
 .box {  padding: 1%; }
 
+.box h3, .box p {  text-align: center; }
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
 
 .logo {
   float: left;
@@ -77,13 +85,41 @@ h2::after {
 .text--long{  line-height: 145%; }
 
 
+/* = Links  */
+a:link,
+a:visited {  
+  text-decoration: none;
+  color: #E67E22; 
+  padding-bottom: 1px;
+  border-bottom: 1px solid #E67E22;
+  transition: all 0.2s ease-in;
+}
+a:hover,
+a:active { 
+  color: #555; 
+  border-bottom: 1px solid transparent;
+}
 /* = Icons  */
-.icon-big {
+.icon {
+  text-align: center;
+  color: #E67E22;
+}
+.icon--big {
   display: block;
   margin-bottom: 10px;
-  text-align: center;
   font-size: 350%;
-  color: #E67E22;
+}
+
+.icon--small {
+  display: inline-block;
+  width: 30px;
+  font-size: 120%;
+  margin-right: 10px;
+  
+  /*  secrets to align text and icons  */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
 }
 
 
@@ -119,6 +155,8 @@ h2::after {
   border: 1px solid #CF6D17;
   color: #fff;  
 }
+
+
 
 /* ============================================ */
 /* SECTION 00 - HEADER  */
@@ -166,8 +204,6 @@ h2::after {
   margin-bottom: 25px;
   text-align: center;
 }
-/* = Boxes  */
-.box h3, .box p {  text-align: center; }
 
 /* ============================================ */
 /* SECTION 02 - MEALS  */
@@ -213,6 +249,10 @@ h2::after {
 .steps__col:last-child {
   padding-left: 3%;
   margin-top: 70px;
+}
+.steps__col:last-child a:link,
+.steps__col:last-child a:visited {
+  border: 0;
 }
 .steps__col:last-child a img {
   height: 50px;
