@@ -1,22 +1,31 @@
 
+CHECKLIST AFTER BROWSERS AND RESPONSIVE CONTROLS:	
+  DEMANDE UN TRAVAIL AUTOUR DES BREAKPOINTS:
+		- CITIES GRID PATTERN
+		- SIGN UP / PLANS BOXES
+		- SIZING TYPO
 
+
+
+
+
+
+
+STYLES CHEETS:
 	IMG SETTINGS WIDTH & HEIGHT !???
 
 	BOXES PATTERN
 		repetitve => components ???
  	
-
 	PATTERN (CLASS) page-section air design separation 
-	
 		section padding 80px 0
 		.meals padding 0
 	
-
 	SECTION HIWORKS 
 		.app-screen pattern!?? 
-
 		hiw-steps pattern ???
-
 
 	TESTIMONIALS SECTION 
 		patterns?? boxes ?
+
+	
